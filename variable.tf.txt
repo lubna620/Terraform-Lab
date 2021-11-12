@@ -1,0 +1,9 @@
+variable "region" {
+    description = "AWS Region"
+    type = string
+}
+variable "instance_type" {
+    description = "instance_type"
+    type = string
+}
+

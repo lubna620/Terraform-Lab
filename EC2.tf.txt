@@ -1,0 +1,7 @@
+resource "aws_instance" "ec2lab" {
+ami = "ami-01cc34ab2709337aa"
+instance_type = "t2.micro"
+tags = {
+    name = "ec2lab"
+}
+}
